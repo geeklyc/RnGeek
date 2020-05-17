@@ -1,0 +1,17 @@
+{
+  "name": "RnGeek",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "yarn react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "react": "16.11.0",
+    "react-native": "^0.62.2"
+  }
+}
