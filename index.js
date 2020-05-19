@@ -1,19 +1,21 @@
 import React from "react";
 import { AppRegistry, StyleSheet, Text, View } from "react-native";
+import HomePage from "./src/pages/home/HomePage";
 
 class RNHighScores extends React.Component {
   render() {
-    const contents = this.props["scores"].map((score) => (
-      <Text key={score.name}>
-        {score.name}:{score.value}
-        {"\n"}
-      </Text>
-    ));
+    // const contents = this.props["scores"].map((score) => (
+    //   <Text key={score.name}>
+    //     {score.name}:{score.value}
+    //     {"\n"}
+    //   </Text>
+    // ));
     return (
-      <View style={styles.container}>
-        <Text style={styles.highScoresTitle}>2048 High Scores!</Text>
-        <Text style={styles.scores}>{contents}</Text>
-      </View>
+      // <View style={styles.container}>
+      //   <Text style={styles.highScoresTitle}>2048 High Scores!</Text>
+      //   <Text style={styles.scores}>{contents}</Text>
+      // </View>
+      <HomePage />
     );
   }
 }
